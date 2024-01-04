@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/OrderFoodApplication.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
+    <header class="position-sticky top-0">
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="text-pink navbar-brand fw-bold" asp-area="" asp-controller="Home" asp-action="Index">TastyBites</a>
@@ -39,9 +40,41 @@
         </main>
     </div>
     <div>
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - OrderFoodApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        <footer class="border-top text-white ">
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <h4>Tasty Bites</h4>
+                    <p>Healthy, Safe and Fastest</p>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <h4>Contact US</h4>
+                        <div class="mt-3 mb-2">
+                            <span><i class="fa-brands fa-instagram fs-5"></i></span>
+                            <span class="fs-6 mx-1"> Instagram</span>
+                        </div>
+                        <div class="mb-2">
+                            <span><i class="fa-brands fa-whatsapp fs-5"></i></span>
+                            <span class="fs-6 mx-1"> WhatsApp</span>
+                        </div>
+                        <div class="mb-2">
+                            <span><i class="fa-brands fa-facebook fs-5"></i></span>
+                            <span class="fs-6 mx-1"> Facebook</span>
+                        </div>
+                        <div class="mb-2">
+                            <span><i class="fa-regular fa-envelope fs-5"></i></span>
+                            <span class="fs-6 mx-1"> Mail</span>
+                        </div>
+                </div>
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                    <h4>Address</h4>
+                        <pre>Near Gulshan Iqbal Park, Shaheenabad</pre>
+                        <pre>Gujranwala, Punjab,Pakistan 52250</pre>
+                </div>
+            </div>
+            <div class="mb-3">
+                    <h5 class="text-center">Powered By Tasty Bites</h5>
+            </div>
         </div>
     </footer>
     </div>
