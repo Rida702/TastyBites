@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\OrderFoodApplication.bundle.scp.css"
     },
     {
+      "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery-ui.min.css"
+    },
+    {
       "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\images\\carousel\\5.jpg",
       "PackagePath": "staticwebassets\\images\\carousel\\5.jpg"
+    },
+    {
+      "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.min.js"
     },
     {
       "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\js\\site.js",

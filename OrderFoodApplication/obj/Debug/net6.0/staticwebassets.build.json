@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ThC35wquCyocE9hB1GsejSrfauTCrPR4ate+BIJPN2A=",
+  "Hash": "wT50HbrKKVZhG72rUVjplq12O3GZ+6AQYYFfsWkhp5M=",
   "Source": "OrderFoodApplication",
   "BasePath": "_content/OrderFoodApplication",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OrderFoodApplication.bundle.scp.css"
+    },
+    {
+      "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\css\\jquery-ui.min.css",
+      "SourceId": "OrderFoodApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\",
+      "BasePath": "_content/OrderFoodApplication",
+      "RelativePath": "css/jquery-ui.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jquery-ui.min.css"
     },
     {
       "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\css\\site.css",
@@ -168,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carousel\\5.jpg"
+    },
+    {
+      "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\js\\jquery-ui.min.js",
+      "SourceId": "OrderFoodApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\",
+      "BasePath": "_content/OrderFoodApplication",
+      "RelativePath": "js/jquery-ui.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-ui.min.js"
     },
     {
       "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\js\\site.js",

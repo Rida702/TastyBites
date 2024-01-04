@@ -1,0 +1,21 @@
+﻿@foreach (var recipe in Model)
+{
+    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 mb-2">
+        <div class="shadow rounded">
+            <div class="card dishCard">
+                @if (!string.IsNullOrEmpty(recipe.Image_url))
+                {
+                    <img src="@recipe.Image_url" class="card-img-top h-50" />
+                }
+                else
+                {
+                    <p>No Image Available</p>
+                }
+                <div class="card-body">
+                    <p class="card-title">@recipe.Title</p>
+                    <p class="card-text">@recipe.Publisher</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
