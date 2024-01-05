@@ -1,3 +1,5 @@
+using OrderFoodApplication.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,6 +11,7 @@ builder.Services.AddAntiforgery(options =>
 });
 
 builder.Services.AddHttpClient();
+builder.Services.AddHttpClient<RecipeController>();
 
 var app = builder.Build();
 

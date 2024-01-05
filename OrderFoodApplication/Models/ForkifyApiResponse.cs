@@ -10,5 +10,6 @@
     public class ForkifyApiData
     {
         public List<Recipe>  recipes { get; set; }
+        public OrderRecipeDetails recipe { get; set; }
     }
 }
