@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\images\\Food.jpg",
+      "PackagePath": "staticwebassets\\images\\Food.jpg"
+    },
+    {
+      "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\images\\Fresh_Fries.jpg",
+      "PackagePath": "staticwebassets\\images\\Fresh_Fries.jpg"
+    },
+    {
       "Id": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\images\\carousel\\1.jpg",
       "PackagePath": "staticwebassets\\images\\carousel\\1.jpg"
     },

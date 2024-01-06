@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wT50HbrKKVZhG72rUVjplq12O3GZ+6AQYYFfsWkhp5M=",
+  "Hash": "7rTInp6c/xouoWm2Gz2JVt5+/472abcATauDyOAAR7k=",
   "Source": "OrderFoodApplication",
   "BasePath": "_content/OrderFoodApplication",
   "Mode": "Default",
@@ -185,6 +185,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\carousel\\5.jpg"
+    },
+    {
+      "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\images\\Food.jpg",
+      "SourceId": "OrderFoodApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\",
+      "BasePath": "_content/OrderFoodApplication",
+      "RelativePath": "images/Food.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Food.jpg"
+    },
+    {
+      "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\images\\Fresh_Fries.jpg",
+      "SourceId": "OrderFoodApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\",
+      "BasePath": "_content/OrderFoodApplication",
+      "RelativePath": "images/Fresh_Fries.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Fresh_Fries.jpg"
     },
     {
       "Identity": "F:\\EAD_SemesterProject\\OrderFoodApplication\\OrderFoodApplication\\wwwroot\\js\\jquery-ui.min.js",
