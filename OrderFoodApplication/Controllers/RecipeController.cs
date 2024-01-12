@@ -6,18 +6,27 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
+using OrderFoodApplication.ContextDBConfig;
 
 namespace OrderFoodApplication.Controllers
 {
     public class RecipeController : Controller
+
     {
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly TastyBitesDBContext context;
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<RecipeController> _logger;
 
-        public RecipeController(IHttpClientFactory httpClientFactory, ILogger<RecipeController> logger)
+        public RecipeController(IHttpClientFactory httpClientFactory, ILogger<RecipeController> logger,
+             UserManager<ApplicationUser> userManager, TastyBitesDBContext dBcontext)
         {
             _httpClientFactory = httpClientFactory;
             _logger = logger;
+            _userManager = userManager;
+            context = dBcontext;
         }
 
         private readonly string apiURL = "https://forkify-api.herokuapp.com/api/v2/recipes";
@@ -65,11 +74,28 @@ namespace OrderFoodApplication.Controllers
             Console.WriteLine($"GetRecipeDetailsAsync accessed for recipeId:");
             ViewBag.id = id;
             ViewData["Id"] = id;
-            // Get recipe details
             OrderRecipeDetails details = await GetRecipeDetailsAsync(id);
+            Random random = new Random();
+            ViewBag.Price = Math.Round(random.Next(150, 500)/5.0)*5;
 
-            // Pass the details to the view
+            var user = await _userManager.GetUserAsync(HttpContext.User);
+            ViewBag.UserId = user?.Id;
+            ViewBag.Address = user?.Address;
             return View(details);
+        }
+
+        [HttpPost]
+        [Authorize]
+        public IActionResult Order([FromForm]Order order)
+        {
+            order.OrderDate = DateTime.Now;
+            if (ModelState.IsValid)
+            {            
+                context.Orders.Add(order);
+                context.SaveChanges();
+                return RedirectToAction("Index", "Recipe");
+            }
+            return RedirectToAction("Order","Recipe", new {id=order.Id});
         }
 
         //ShowOrder

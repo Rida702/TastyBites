@@ -5,12 +5,12 @@ namespace OrderFoodApplication.Models
     public class RegisterViewModel
     {
         [Required]
-        public int Name { get; set; }
+        public string? Name { get; set; }
         [Required]
-        public int Address { get; set; }
+        public string? Address { get; set; }
         [Required, EmailAddress]
-        public int Email { get; set; }
+        public string? Email { get; set; }
         [Required]
-        public int Password { get; set; }
+        public string? Password { get; set; }
     }
 }

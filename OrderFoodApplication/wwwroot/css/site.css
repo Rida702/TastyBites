@@ -75,3 +75,36 @@ header{
 }
 
 }
+
+.validation-summary-errors {
+    color: #dc3545;
+}
+
+.validation-summary-errors li {
+    color: #dc3545;
+}
+
+#qty {
+    width:50px;
+    border:none
+}
+#qty:focus{
+    outline:none;
+}
+
+#qtySection{
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.fa-plus, .fa-minus {
+    cursor: pointer;
+}
+#totalAmout, #price{
+    width:60px;
+    border:none;
+}
+#totalAmout:focus, #price:focus{
+    outline:none;
+}

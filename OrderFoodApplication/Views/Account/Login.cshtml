@@ -16,6 +16,9 @@
                 <h2 class="text-pink fst-italic">Login</h2>
                 <span class="fst-italic text-muted">Login into your account</span>
             </div>
+            <div class="mb-3">
+                @Html.ValidationSummary()
+            </div>
             <div class="form-floating mb-3">
                 @Html.TextBoxFor(m => m.Email, new {@class="form-control", placeholder="Email"})
                 <label  for="Email">Email</label>
